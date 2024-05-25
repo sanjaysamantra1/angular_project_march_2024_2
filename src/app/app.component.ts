@@ -15,6 +15,8 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { CareersComponent } from './components/careers/careers.component';
 import { MatTableModule } from '@angular/material/table';
+import { TodoListComponent } from './components/todo-list/todo-list.component';
+import { AddTodoComponent } from './components/add-todo/add-todo.component';
 
 
 export interface PeriodicElement {
@@ -55,7 +57,9 @@ const ELEMENT_DATA: PeriodicElement[] = [
     HomeComponent,
     AboutusComponent,
     CareersComponent,
-    MatTableModule
+    MatTableModule,
+    TodoListComponent,
+    AddTodoComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
