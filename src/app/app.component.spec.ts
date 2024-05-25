@@ -8,7 +8,9 @@ describe('AppComponent', () => {
   })
   beforeEach(async () => { // 3 times, there are 3 it()
     await TestBed.configureTestingModule({
-      imports: [AppComponent],
+      imports: [
+        AppComponent,
+      ],
     }).compileComponents();
     console.log('Before Each')
   });

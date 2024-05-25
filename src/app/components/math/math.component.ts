@@ -1,11 +1,12 @@
 import { HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { MathService } from '../../services/math.service';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-math',
   standalone: true,
-  imports: [HttpClientModule],
+  imports: [HttpClientModule,MatDialogModule],
   templateUrl: './math.component.html',
   styleUrl: './math.component.css'
 })
