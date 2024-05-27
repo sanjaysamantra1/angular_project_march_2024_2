@@ -20,7 +20,7 @@ export class TodoListComponent {
   ngOnInit() {
     this.store.subscribe((state: any) => {
       console.log(state);
-      this.allToDos = state.todosReducer;
+      this.allToDos = state.todosReducer;  // selector
     });
   }
 

@@ -1,1 +1,8 @@
-<p>add-todo works!</p>
+<div class="border p-4">
+    <h3 class="text-center">Add To Do</h3>
+
+    <input type="text" #newTodoBox />
+    <br/>
+    <button class="btn btn-primary m-1" (click)="addNewToDo(newTodoBox.value)">Add Todo</button>
+
+</div>
